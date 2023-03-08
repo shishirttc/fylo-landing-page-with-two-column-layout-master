@@ -95,6 +95,7 @@ body{
     font-weight: 700;
     border: none;
     margin-left: 25px;
+    cursor: pointer;
 }
 .newsletter_part_A form button:hover{
     background: #6B9BFF;
