@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+
+:root{
+    --VeryDarkBlue: hsl(243, 87%, 12%);
+    --DesaturatedBlue: hsl(238, 22%, 44%);
+    --BrightBlue: hsl(224, 93%, 58%);
+    --ModerateCyan: hsl(170, 45%, 43%);
+    --LightGrayishBlue: hsl(240, 75%, 98%);
+    --LightGray: hsl(0, 0%, 75%);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* .container{
+    
+} */
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+}
+
+/* .logo{
+
+}
+
+.menu{
+    
+} */
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    list-style: none;
+    padding: 0 0 0 50px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: var(--VeryDarkBlue);
+    font-size: 16px;
+}
+
+.newsletter{
+    display: flex;
+}
+
+.newsletter_part_A{
+    width: 50%;
+    padding: 70px 40px;
+}
+
+.newsletter_part_A h1{
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: var(--VeryDarkBlue);
+}
+
+.newsletter_part_A p{
+    font-size: 18px;
+    width: 580px;
+    text-align: justify;
+    padding: 30px 0;
+    font-weight: 700;
+}
+
+.newsletter_part_A form input{
+    width:300px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.newsletter_part_A form button{
+    padding: 16px 70px;
+    background: var(--BrightBlue);
+    border-radius: 5px;
+    color: var(--LightGrayishBlue);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    border: none;
+    margin-left: 25px;
+}
+.newsletter_part_A form button:hover{
+    background: #6B9BFF;
+}
+
+
+.newsletter_part_B{
+    width: 50%;
+}
+.newsletter_part_B img{
+    width: 700px;
+}
+
+
+/* secound Section */
+
+.curv{
+    background: url(images/bg-curve-desktop.svg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+}
+
+.curv_section{
+    background: var(--LightGrayishBlue);
+    display: flex;
+    padding-bottom: 70px;
+}
+
+.curv_section_A{
+    width: 50%;
+    padding: 40px;
+}
+
+.curv_section_A h2{
+    font-size: 38px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: var(--VeryDarkBlue);
+    margin-bottom: 40px;
+}
+
+.curv_section_A p{
+    font-size: 18px;
+    width: 580px;
+    text-align: justify;
+    padding: 10px 0;
+}
+
+.curv_section_A a{
+    color: var(--ModerateCyan);
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.curv_section_A a:hover{
+    color: #6B9BFF;
+}
+
+.curve_box{
+    background: #fff;
+    width: 450px;
+    height: 230px;
+    border-radius: 5px;
+    padding: 15px 60px;
+    box-shadow: 1px 1px 5px #00000028;
+}
+.curve_box img{
+    width: 20px;
+}
+.curve_box p{
+    font-size: 15px;
+    width: 95%;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.curve_Profile{
+    display: flex;
+    margin-top: 20px;
+}
+
+.curve_Profile img{
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+
+
+.curv_section_B{
+    width: 50%;
+}
+
+.curv_section_B img{
+    width: 700px;
+}
+
+/* access section start here */
+
+.access{
+    display: flex;
+    background: #464879;
+    padding: 100px 60px 70px 70px;
+}
+
+.access_A{
+    width: 50%;
+}
+.access_A h2{
+    color: var(--LightGrayishBlue);
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.access_A p{
+    color: var(--LightGrayishBlue);
+    margin-top: 20px;
+    width: 70%;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+
+.access_B{
+    width: 50%;
+}
+
+.access_B form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.access_B form input{
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.access_B form button{
+    width: 40%;
+    padding: 15px;
+    background: var(--BrightBlue);
+    border-radius: 5px;
+    color: var(--LightGrayishBlue);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+.access_B form button:hover{
+    background: #6B9BFF;
+}
+
+
+/* Footer section start here */
+
+footer{
+    background: var(--VeryDarkBlue);
+    color: var(--LightGrayishBlue);
+    padding: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+footer .box1 , .box2, .box3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: var(--LightGrayishBlue);
+}
+footer .box1 div{
+    display: inline-flex;
+    gap: 20px;
+}
+
+footer .box4 {
+    font-size: 30px;
+    display: flex;
+    gap: 30px;
+}
+footer .box4 a i{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .box4 a i:hover{
+    border-color: #6B9BFF;
+}
+footer a:hover{
+    color: #6B9BFF;
+}
