@@ -26,9 +26,7 @@ body{
     margin: 0 auto;
 }
 
-/* .container{
-    
-} */
+
 
 .head{
     display: flex;
@@ -36,13 +34,7 @@ body{
     padding: 70px;
 }
 
-/* .logo{
 
-}
-
-.menu{
-    
-} */
 .menu ul{
     display: flex;
 }
